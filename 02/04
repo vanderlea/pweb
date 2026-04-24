@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>atividade 1</title>
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>Document</title>
 </head>
-
 <body>
+    <h1>formulários</h1>
 
-<a href="index.html">HOME</a> |
-<a href="empresa.html">EMPRESA</a> |
-<a href="contato.html">CONTATO</a> |
-<a target="_blank" href="https://ifpi.edu.br">ifpi</a> |
+    <form>
+    
+    </form>
+    
 
-<a href=../">voltar</a> |
-<h1>HOME</h1>
+
+
+    
+<body>  
 </body>
-</html>
+
