@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>atividade 03</title>
 </head>
-
 <body>
     <h1>tabelas</h1>
     <table border="1">
@@ -26,4 +25,29 @@
         </td>
     </tr
 <table>
+    <hr>
+    <h1>listagem de produtos</h1>
+    <table border="1">
+        <tr>
+            <td>código</td>
+            <td>descrição</td>
+            <td>valor (R$)</td>
+        </tr>
+
+        <tr>
+            <td>00001</td>
+            <td>notebook</td>
+            <td>2500,00</td>
+        </tr>
+        <tr>
+            <td>00002</td>
+            <td>monitor</td>
+            <td>500,00</td>
+        </tr>
+        <tr>
+            <td>00003</td>
+            <td>roteador</td>
+            <td>150,00</td>
+        </tr>
+    </table>
 
