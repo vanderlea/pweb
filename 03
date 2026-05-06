@@ -29,9 +29,9 @@
     <h1>listagem de produtos</h1>
     <table border="1">
         <tr>
-            <td>código</td>
-            <td>descrição</td>
-            <td>valor (R$)</td>
+            <th>código</th>
+            <th>descrição</th>
+            <th>valor (R$)</th>
         </tr>
 
         <tr>
