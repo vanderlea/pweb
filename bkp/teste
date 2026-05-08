@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 03</title>
+</head>
+<body>
+    <h1>tabelas</h1>
+    <table border="1" width="400">
+<tr>
+    <td><img scr="https://https://png.pngtree.com/thumb_back/fh260/background/20241106/pngtree-a-luxury-red-car-in-the-road-image_16507119.jpg" width="100px">
+        coluna 01 - Linha 01
+    </td>
+    <td>
+        coluna 02 - linha 02
+        </td>
+    </tr>
+    <tr>
+        <td>
+            coluna 01 - linha 02
+            </td>
+    <td>
+        coluna 02 - linha 02
+        </td>
+    </tr
+<table>
+    <hr>
+    <h1>listagem de produtos</h1>
+    <table border="1" width="50%">
+        <tr>
+            <th>código</th>
+            <th>descrição</th>
+            <th>valor (R$)</th>
+        </tr>
+
+        <tr>
+            <td>00001</td>
+            <td>notebook</td>
+            <td>2500,00</td>
+        </tr>
+        <tr>
+            <td>00002</td>
+            <td>monitor</td>
+            <td>500,00</td>
+        </tr>
+        <tr>
+            <td>00003</td>
+            <td>roteador wi-fi</td>
+            <td>150,00</td>
+        </tr>
+         <tr>
+            <td colspan="2"><b>Total</b></td>
+            <td></td>
+            <td>3150,00</td>
+        </tr>
+         <tr>
+            <td rowspan="2"><b>Encargos</b></td>
+            <td>Juros</td>
+            <td>5,00</td>
+        </tr>
+         <tr>
+            <td>Encargos</td>
+            <td>Multa</td>
+            <td>9,00</td>
+        </tr>
+        <tr>
+            <td>Total Geral</td>
+        </tr>
+    </table>
+
