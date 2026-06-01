@@ -1,46 +1,240 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
+    <title>JM Viagens - Contato</title>
 </head>
 <body>
 
-    <header>
-        <img src="img/logo.png" alt="Logo da Empresa" width="150">
-        <nav>
-            <a href="index.html">Principal</a> | 
-            <a href="quem_somos.html">Quem Somos</a> | 
-            <a href="contato.html">Contato</a>
-        </nav>
-    </header>
+    <table border="0" width="900" align="center">
 
-    <hr>
+        <tr>
+            <td>
+                <img src="imagens/logo.png" alt="JM Viagens">
+            </td>
+            <td align="right">
+                <a href="index.html">Home</a> | 
+                <a href="quem-somos.html">Quem somos</a> | 
+                <a href="contato.html">Contato</a> | 
+                <a href="destinos.html">Destinos</a> | 
+                <a href="buscarpacotes.html">Buscar Pacotes</a>
+            </td>
+        </tr>
 
-    <main>
-        <h1>Fale Conosco</h1>
-        
-        <img src="img/contato.png" alt="Banner de Contato" width="300"><br><br>
+        <tr>
+            <td colspan="2" align="center">
+                <img src="imagens/contato.png" alt="Contato" width="100%">
+            </td>
+        </tr>
 
-        <form>
-            <label for="nome">Nome:</label><br>
-            <input type="text" id="nome" name="nome" required><br><br>
+         <tr>
+            <td colspan="2">
+                <h2>Contato</h2>
+                <p><strong>E-mail:</strong> jmviagens@jmviagens.com.br</p>
+                
+                <hr>
+                <h3>Envie uma mensagem</h3>
+                <form action="#" method="POST">
+                    <table border="0" width="100%">
+                        <tr>
+                            <td width="15%"><label for="nome">Nome:</label></td>
+                            <td><input type="text" id="nome" name="nome" required style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">E-mail:</label></td>
+                            <td><input type="email" id="email" name="email" required style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="assunto">Assunto:</label></td>
+                            <td><input type="text" id="assunto" name="assunto" style="width: 100%;"></td>
+                        </tr>
+                        <tr>
+                            <td valign="top"><label for="mensagem">Mensagem:</label></td>
+                            <td><textarea id="mensagem" name="mensagem" rows="6" required style="width: 100%;"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="submit" value="Enviar Mensagem"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
 
-            <label for="email">E-mail:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-            <label for="assunto">Assunto:</label><br>
-            <input type="text" id="assunto" name="assunto"><br><br>
-
-            <label for="mensagem">Mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea><br><br>
-
-            <input type="submit" value="Enviar Mensagem">
-        </form>
-    </main>
-
-    <hr>
+        <!-- Linha 4: Rodapé -->
+        <tr>
+            <td colspan="2" align="center">
+                <h4>Todos os direitos reservados</h4>
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
+Use o código com cuidado.4. destinos.html (Página de Pacotes)html<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JM Viagens - Destinos</title>
+</head>
+<body>
+
+    <table border="0" width="900" align="center">
+        <!-- Linha 1: Logo e Menu -->
+        <tr>
+            <td>
+                <img src="imagens/logo.png" alt="JM Viagens">
+            </td>
+            <td align="right">
+                <a href="index.html">Home</a> | 
+                <a href="quem-somos.html">Quem somos</a> | 
+                <a href="contato.html">Contato</a> | 
+                <a href="destinos.html">Destinos</a> | 
+                <a href="buscarpacotes.html">Buscar Pacotes</a>
+            </td>
+        </tr>
+
+        <!-- Linha 2: Imagem Principal Adaptada -->
+        <tr>
+            <td colspan="2" align="center">
+                <img src="imagens/principal.png" alt="Nossos Destinos" width="100%">
+            </td>
+        </tr>
+
+        <!-- Linha 3: Conteúdo dos Pacotes -->
+        <tr>
+            <td colspan="2">
+                <h2>Nossos Pacotes de Viagem</h2>
+                <p>Explore as melhores opções de viagens que preparamos para você e sua família.</p>
+                
+                <table border="1" width="100%" cellpadding="10" cellspacing="0">
+                    <tr>
+                        <td width="30%" align="center">
+                            <!-- Use uma imagem fictícia ou do seu pacote aqui -->
+                            <img src="imagens/principal.png" alt="Pacote Praia" width="200">
+                        </td>
+                        <td>
+                            <h3>Pacote Paradiso - Natal / RN</h3>
+                            <p>Desfrute de 5 dias e 4 noites em um resort à beira-mar com café da manhã incluso, passeios de buggy pelas dunas móveis e translado de ida e volta.</p>
+                            <p><strong>A partir de: R$ 1.890,00 por pessoa.</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <img src="imagens/principal.png" alt="Pacote Serra" width="200">
+                        </td>
+                        <td>
+                            <h3>Pacote Inverno - Gramado / RS</h3>
+                            <p>Aproveite o charme europeu da Serra Gaúcha. Inclui 4 diárias em hotel central, tour gastronômico com café colonial e ingressos para as principais atrações da cidade.</p>
+                            <p><strong>A partir de: R$ 2.450,00 por pessoa.</strong></p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!-- Linha 4: Rodapé -->
+        <tr>
+            <td colspan="2" align="center">
+                <h4>Todos os direitos reservados</h4>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+Use o código com cuidado.5. buscarpacotes.html (Formulário de Busca com todos os campos solicitados)html<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JM Viagens - Buscar Pacotes</title>
+</head>
+<body>
+
+    <table border="0" width="900" align="center">
+        <!-- Linha 1: Logo e Menu -->
+        <tr>
+            <td>
+                <img src="imagens/logo.png" alt="JM Viagens">
+            </td>
+            <td align="right">
+                <a href="index.html">Home</a> | 
+                <a href="quem-somos.html">Quem somos</a> | 
+                <a href="contato.html">Contato</a> | 
+                <a href="destinos.html">Destinos</a> | 
+                <a href="buscarpacotes.html">Buscar Pacotes</a>
+            </td>
+        </tr>
+
+        <!-- Linha 2: Imagem Principal Adaptada -->
+        <tr>
+            <td colspan="2" align="center">
+                <img src="imagens/principal.png" alt="Buscar Pacotes" width="100%">
+            </td>
+        </tr>
+
+        <!-- Linha 3: Formulário de Busca -->
+        <tr>
+            <td colspan="2">
+                <h2>Buscar Pacotes de Viagens</h2>
+                
+                <form action="#" method="GET">
+                    <table border="0" width="100%" cellpadding="5">
+                        <tr>
+                            <td width="20%"><label for="origem">Origem:</label></td>
+                            <td><input type="text" id="origem" name="origem" placeholder="Cidade de saída" required style="width: 80%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="destino">Destino:</label></td>
+                            <td><input type="text" id="destino" name="destino" placeholder="Cidade ou país de destino" required style="width: 80%;"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="partida">Data de Partida:</label></td>
+                            <td><input type="date" id="partida" name="partida" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="retorno">Data de Retorno:</label></td>
+                            <td><input type="date" id="retorno" name="retorno" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="quartos">Quartos:</label></td>
+                            <td>
+                                <select id="quartos" name="quartos">
+                                    <option value="1">1 Quarto</option>
+                                    <option value="2">2 Quartos</option>
+                                    <option value="3">3 Quartos</option>
+                                    <option value="4">Mais de 3</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="adultos">Qtde Adultos:</label></td>
+                            <td><input type="number" id="adultos" name="adultos" min="1" value="1" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="criancas">Qtde Crianças:</label></td>
+                            <td><input type="number" id="criancas" name="criancas" min="0" value="0" required></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><br><input type="submit" value="Pesquisar Pacotes" style="padding: 5px 15px;"></td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td colspan="2" align="center">
+                <h4>Todos os direitos reservados</h4>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+
+
+            
