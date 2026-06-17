@@ -38,5 +38,57 @@
     </div>
 
 </body>
+ {
+    background: #d6d6d6;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.card {
+    background-color: #ffffff;
+    border: 1px solid #b5b5b5;
+    padding: 10px;
+    width: calc(33.333% - 10px); /* Ocupa cerca de 3 colunas por linha */
+    box-sizing: border-box;
+}
+@media (max-width: 768px) {
+    .card {
+        width: calc(50% - 8px);
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        width: 100%;
+    }
+}
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.card .resumo {
+    margin: 8px 0 0 0;
+    font-size: 14px;
+    color: #333333;
+}
+.texto-inferior p {
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
 </html>
 
