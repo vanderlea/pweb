@@ -1,50 +1,67 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Box Model</title>
-        <meta charset="UTF-8" />
-        <style type="text/ccs"></style>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <title>Box Model e Posicionamento</title>
+    <style type="text/css">
+         body {
+            background: #61bd8c;
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+         #conteudo {
+            background: #FFFFFF;
+            padding: 10px;
+            width: 900px;
+            margin: 30px auto; 
+        }
+        .caixa {
+            background: red;
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+         #relativo {
+            position: relative;
+            left: 30px;
+        }
 
-    </head>
-    <body>
-        <span>Container body</span>
-            <div id=conteudo>
-                Container div
-            </div>
-    </body>
-    <style type="text/ccs"></style>
-    body {
-        background: #61bd8c;
-    }
-    #conteudo{
-        background: #ffffff;
-        padding: 10px;
-        width: 900px;
-        margin: 30px auto;
-    }
-    .caixa{
-        background: red;
-        margin: 10px;
-        width: 100px;
-        height: 100px;
-        color: #ffffff;
-    }
-    <div id=conteudo>
+        #absoluto {
+            position: absolute;
+            left: 30px;
+        }
+
+        #fixo {
+            position: fixed;
+            left: 200px;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <span>Container body</span>
+
+    <div id="conteudo">
         Container div
 
-        <div class="caixa">
-        Relativo
-        </div>
-        
-        <div class="caixa">
-        Absoluto
+         <div id="relativo" class="caixa">
+            Relativo
         </div>
 
-        <div class="caixa">
-        Fixo
-     
+        <div id="absoluto" class="caixa">
+            Absoluto
+        </div>
+
+        <div id="fixo" class="caixa">
+            Fixo
+        </div>
     </div>
-</style>
-    </body>
 
+</body>
 </html>
+
