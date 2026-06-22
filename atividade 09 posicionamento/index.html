@@ -15,6 +15,7 @@
             padding: 10px;
             width: 900px;
             margin: 30px auto; 
+            position: relative; /* ANCORA O ELEMENTO ABSOLUTO AQUI DENTRO */
         }
         .caixa {
             background: red;
@@ -34,6 +35,7 @@
         #absoluto {
             position: absolute;
             left: 30px;
+            top: 50px; /* Alinhado verticalmente dentro do container */
         }
 
         #fixo {
@@ -53,15 +55,14 @@
             Relativo
         </div>
 
-        <div id="absoluto" class="caixa">
+         <div id="absoluto" class="caixa">
             Absoluto
         </div>
 
-        <div id="fixo" class="caixa">
+         <div id="fixo" class="caixa">
             Fixo
         </div>
     </div>
 
 </body>
 </html>
-
