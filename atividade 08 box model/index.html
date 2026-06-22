@@ -4,7 +4,59 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria de Imagens - Exercício</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background: #d6d6d6;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .card {
+            background-color: #ffffff;
+            border: 1px solid #b5b5b5;
+            padding: 10px;
+            width: calc(33.333% - 10px); 
+            box-sizing: border-box;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: calc(50% - 8px);
+            }
+        }
+        @media (max-width: 480px) {
+            .card {
+                width: 100%;
+            }
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .card .resumo {
+            margin: 8px 0 0 0;
+            font-size: 14px;
+            color: #333333;
+        }
+        .texto-inferior p {
+            text-align: justify;
+            line-height: 24px;
+            font-size: 16px;
+            color: #222222;
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
 <body>
 
@@ -34,61 +86,8 @@
          <div class="texto-inferior">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et nulla luctus, feugiat est sed, sollicitudin urna. Mauris euismod porta aliquam. Mauris ut justo ut est consectetur rhoncus. Duis vel volutpat nisl. Etiam tortor nunc, efficitur non sapien ac, fringilla imperdiet dui. Nam blandit leo non justo euismod facilisis. Donec imperdiet quam blandit nunc elementum aliquam. Duis interdum dolor at placerat sodales. Aenean dui mi, congue ac pellentesque at, porta vitae elit.</p>
             <p>Maecenas non elementum nisl, a posuere nunc. Aenean scelerisque libero sed orci vulputate, quis auctor purus consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et nulla luctus, feugiat est sed, sollicitudin urna. Mauris euismod porta aliquam. Mauris ut justo ut est consectetur rhoncus. Duis vel volutpat nisl. Etiam tortor nunc, efficitur non sapien ac, fringilla imperdiet dui. Nam blandit leo non justo euismod facilisis. Donec imperdiet.</p>
-             </div>
+         </div>
     </div>
 
 </body>
- {
-    background: #d6d6d6;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
-}
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-.card {
-    background-color: #ffffff;
-    border: 1px solid #b5b5b5;
-    padding: 10px;
-    width: calc(33.333% - 10px); /* Ocupa cerca de 3 colunas por linha */
-    box-sizing: border-box;
-}
-@media (max-width: 768px) {
-    .card {
-        width: calc(50% - 8px);
-    }
-}
-@media (max-width: 480px) {
-    .card {
-        width: 100%;
-    }
-}
-.card img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-.card .resumo {
-    margin: 8px 0 0 0;
-    font-size: 14px;
-    color: #333333;
-}
-.texto-inferior p {
-    text-align: justify;
-    line-height: 24px;
-    font-size: 16px;
-    color: #222222;
-    margin-bottom: 15px;
-}
-
 </html>
-
