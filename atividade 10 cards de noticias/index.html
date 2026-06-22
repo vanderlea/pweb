@@ -57,6 +57,16 @@
             box-sizing: border-box;
             padding: 15px;
             overflow: hidden;
+            /* Suaviza a transição do efeito de hover */
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        }
+
+        /* Efeito visual aplicado ao passar o mouse */
+        .card-noticia:hover {
+            transform: translateY(-5px); /* Faz o card flutuar para cima */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Adiciona sombra de profundidade */
+            border-color: #b57a22; /* Altera levemente a cor da borda */
+            cursor: pointer; /* Transforma o ponteiro em cursor de clique */
         }
 
         @media (max-width: 600px) {
@@ -113,35 +123,35 @@
 <body>
 
 <nav>
-    <a href="https://www.google.com">Google</a>
-    <a href="https://www.techtudo.com.br/">Tech Tudo</a>
-    <a href="https://www.maujor.com./">Maujor</a>
+    <a href="https://google.com">Google</a>
+    <a href="https://techtudo.com.br">Tech Tudo</a>
+    <a href="https://maujor.com./">Maujor</a>
 </nav>
 
 <main class="noticias-container">
     <article class="card-noticia">
-        <img src="https://picsum.photos/id/10/100/75" alt="Imagem Ilustrativa seca">
+        <img src="https://picsum.photos" alt="Imagem Ilustrativa seca">
         <header class="portal-infomoney">InfoMoney</header>
         <h2>Preços no mercado livre operam próximos à estabilidade apesar da seca...</h2>
         <footer>2 horas atrás</footer>
     </article>
 
     <article class="card-noticia">
-        <img src="https://picsum.photos/id/12/100/75" alt="Imagem Ilustrativa Nobel">
+        <img src="https://picsum.photos" alt="Imagem Ilustrativa Nobel">
         <header style="color: #004b87;">CNN Brasil</header>
         <h2>Nobel da Paz: conheça nomes cotados para o prêmio deste ano, que será conhecido nest...</h2>
         <footer>3 horas atrás</footer>
     </article>
 
     <article class="card-noticia">
-        <img src="https://picsum.photos/id/15/100/75" alt="Imagem Ilustrativa Três Poderes">
+        <img src="https://picsum.photos" alt="Imagem Ilustrativa Três Poderes">
         <header class="portal-cnn">CNN</header>
         <h2>Três poderes jamais devem avançar sobre "competências alheias", diz Arthur Lira</h2>
         <footer>4 horas atrás</footer>
     </article>
 
     <article class="card-noticia">
-        <img src="https://picsum.photos/id/26/100/75" alt="Imagem Ilustrativa Japão">
+        <img src="https://picsum.photos" alt="Imagem Ilustrativa Japão">
         <header style="color:#0072c6; font-style: italic;">R7.COM</header>
         <h2>Japão inicia segunda fase de despejo de água da central nuclear de Fukushima</h2>
         <footer>7 horas atrás</footer>
