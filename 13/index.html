@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>introdução ao CSS3</title>
-</head>
+<style>
+        
+        .caixa-padrao, .caixa-border-box {
+            width: 100px;
+            padding: 20px;
+            border: 15px solid #333;
+            background-color: #ccc;
+            margin-bottom: 20px;
+            float: left;
+            margin-right: 20px;
+        }
 
+        
+        .caixa-border-box {
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box; 
+            -moz-box-sizing: border-box;    
+        }
+    </style>
+</head>
 <body>
-    <h1>Introdução à Programação Web</h1>
-    <p>Vanderlea Cardoso do Nascimento</p>
+
+    
+    <div class="caixa-padrao">
+        Padrão (135px)
+    </div>
+
+    
+    <div class="caixa-border-box">
+        Border-Box (100px)
+    </div>
+
 </body>
+</html>
