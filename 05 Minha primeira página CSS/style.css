@@ -1,62 +1,52 @@
 body {
-    background-color: #e2e216; 
-    font-family: Georgia, serif;
-    color: #000000;
-    margin: 20px;
-}
-.container {
-    display: flex;
-    gap: 30px;
-}
-
-.menu ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    width: 150px;
-}
-
-.menu li {
-    background-color: #ffffff;
-    margin-bottom: 5px;
-    border-right: 15px solid #000000; 
-}
-
-.menu a {
-    display: block;
-    color: #993366;
-    text-decoration: none;
-    padding: 8px;
-    font-size: 14px;
-}
-
-.conteudo {
-    max-width: 500px;
+    background-color: #e2e212; 
+    font-family: Georgia, "Times New Roman", serif;
+    color: #400040; 
+    padding: 20px;
 }
 
 h1 {
-    color: #993366; 
-    margin-top: 0;
+    font-size: 28px;
+    color: #800080; 
 }
 
-p {
-    font-size: 14px;
-    line-height: 1.5;
-}
-
-.destaque {
-    font-weight: bold;
-}
-
-.rodape {
+.introducao {
     font-style: italic;
-    font-size: 12px;
-    color: #993366;
+}
+
+.menu-lateral {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 150px;
+}
+
+.menu-lateral li {
+    background-color: #ffffff; 
+    margin-bottom: 5px;
+    border: 1px solid #000000;
+}
+
+.menu-lateral a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #0000ff; 
+}
+
+.conteudo {
+    margin-left: 170px;
 }
 
 hr {
     border: 0;
-    border-top: 1px dashed #993366;
+    border-top: 1px dashed #800080;
     margin-top: 20px;
+}
+
+.rodape {
+    font-size: 12px;
+    font-style: italic;
 }
 
