@@ -1,0 +1,41 @@
+body {
+    background: #d6d6d6;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.galeria-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.box-galeria {
+    background-color: #ffffff;
+    width: 30%; 
+    float: left;
+    margin: 1.66%; 
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+.box-galeria img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.box-galeria .resumo {
+    padding: 8px;
+    font-size: 13px;
+    color: #555;
+    background-color: #ffffff;
+}
+
+.texto-inferior {
+    clear: both; 
+    padding-top: 25px;
+    text-align: justify;
+    line-height: 22px;
+    color: #333;
+}
