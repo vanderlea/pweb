@@ -1,49 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-    <meta charset="utf-8" />
-    <title>posicionamento</title>
-    <style type="text/css">
-         body {
-            background: #61bd8c;
-            margin: 0;
-            padding: 20px;
-            font-family: Arial, sans-serif;
-        }
-         #conteudo {
-            background: #FFFFFF;
-            padding: 10px;
-            width: 900px;
-            margin: 30px auto; 
-            position: relative; 
-        }
-        .caixa {
-            background: red;
-            margin: 10px;
-            width: 100px;
-            height: 100px;
-            color: #FFFFFF;
-            font-weight: bold;
-            padding: 5px;
-            box-sizing: border-box;
-        }
-         #relativo {
-            position: relative;
-            left: 30px;
-        }
-
-        #absoluto {
-            position: absolute;
-            left: 30px;
-            top: 50px; 
-        }
-
-        #fixo {
-            position: fixed;
-            left: 200px;
-            top: 0px;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 09 - Posicionamento</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <span>Container body</span>
@@ -51,15 +12,14 @@
     <div id="conteudo">
         Container div
 
-         <div id="relativo" class="caixa">
+        <div id="relativo" class="box caixa">
             Relativo
         </div>
 
-         <div id="absoluto" class="caixa">
+        <div id="absoluto" class="box caixa">
             Absoluto
         </div>
-
-         <div id="fixo" class="caixa">
+        <div id="fixo" class="box caixa">
             Fixo
         </div>
     </div>
