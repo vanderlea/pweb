@@ -1,92 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <title>BOX MODEL</title>
-
+    <title>BOX MODEL - Atividade 08</title>
+    <meta charset="utf-8"/>
     <style>
-        body {
-            background: #d6d6d6;
-            font-family: Arial, Helvetica, sans-serif;
-            margin: 0;
-            padding: 20px;
-        }
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .galeria {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-        .card {
-            background-color: #ffffff;
-            border: 1px solid #b5b5b5;
-            padding: 10px;
-            width: calc(33.333% - 10px); 
-            box-sizing: border-box;
-        }
-        @media (max-width: 768px) {
-            .card {
-                width: calc(50% - 8px);
-            }
-        }
-        @media (max-width: 480px) {
-            .card {
-                width: 100%;
-            }
-        }
-        .card img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .card .resumo {
-            margin: 8px 0 0 0;
-            font-size: 14px;
-            color: #333333;
-        }
-        .texto-inferior p {
+        
+        .noticia {
+            font-family: "opensans-regular", arial, sans-serif;
+            background-color: #F5F5DC;
+            border: 1px solid black;
+            color: #333;
+            font-size: 16px;
+            padding-left: 15px;
+            padding-right: 10px;
             text-align: justify;
             line-height: 24px;
-            font-size: 16px;
-            color: #222222;
-            margin-bottom: 15px;
+            width: 500px;
+            margin: 20px; 
+        }
+
+        
+        .noticia h1 {
+            color: #c4170c;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            margin: 8px; 
+        }
+
+        
+        .imagem {
+            float: right; 
+            width: 200px;
+            padding: 10px;
+        }
+
+        
+        .noticia p {
+            clear: both;
         }
     </style>
 </head>
 <body>
 
-     <div class="container">
-        <div class="galeria">
-            <div class="card">
-                <img src="https://placeholder.com" alt="imagem1.png">
-                <p class="resumo">Resumo</p>
-            </div>
-            <div class="card">
-                <img src="https://placeholder.com" alt="imagem2.png">
-                <p class="resumo">Resumo</p>
-            </div>
-            <div class="card">
-                <img src="https://placeholder.com" alt="imagem3.png">
-                <p class="resumo">Resumo</p>
-            </div>
-            <div class="card">
-                <img src="https://placeholder.com" alt="imagem4.png">
-                <p class="resumo">Resumo</p>
-            </div>
-            <div class="card">
-                <img src="https://placeholder.com" alt="imagem5.png">
-                <p class="resumo">Resumo</p>
-            </div>
+    
+    <div class="container">
+        
+        
+        <div class="noticia">
+            <h1>Título da notícia 01</h1>
+            
+            <img class="imagem" src="https://placeholder.com" alt="Notícia">
+            <p>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+                e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja 
+                de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não 
+                só a cinco séculos.
+            </p>
         </div>
-         <div class="texto-inferior">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et nulla luctus, feugiat est sed, sollicitudin urna. Mauris euismod porta aliquam. Mauris ut justo ut est consectetur rhoncus. Duis vel volutpat nisl. Etiam tortor nunc, efficitur non sapien ac, fringilla imperdiet dui. Nam blandit leo non justo euismod facilisis. Donec imperdiet quam blandit nunc elementum aliquam. Duis interdum dolor at placerat sodales. Aenean dui mi, congue ac pellentesque at, porta vitae elit.</p>
-            <p>Maecenas non elementum nisl, a posuere nunc. Aenean scelerisque libero sed orci vulputate, quis auctor purus consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et nulla luctus, feugiat est sed, sollicitudin urna. Mauris euismod porta aliquam. Mauris ut justo ut est consectetur rhoncus. Duis vel volutpat nisl. Etiam tortor nunc, efficitur non sapien ac, fringilla imperdiet dui. Nam blandit leo non justo euismod facilisis. Donec imperdiet.</p>
-         </div>
+
+        
+        <div class="noticia">
+            <h1>Título da outra notícia</h1>
+            <img class="imagem" src="https://placeholder.com" alt="Notícia">
+            <p>
+                Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, 
+                e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja 
+                de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não 
+                só a cinco séculos.
+            </p>
+        </div>
+
     </div>
 
 </body>
