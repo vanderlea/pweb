@@ -3,43 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sistema de grid</title>
+  <title>Atividade 17 - Galeria de Gatos Completa</title>
   
   <link href="https://jsdelivr.net" rel="stylesheet">
   
   <style>
     
     .conteudo {
-      background: #DCDCDC;
-      border: 2px solid blue;
+      background: #DCDCDC;   
+      border: 2px solid blue; 
     }
     .linha {
-      background: #FFEBCD;
+      background: #FFEBCD;   
       border: 2px solid black;
     }
     .coluna {
-      background: #87CEEB;
+      background: #87CEEB;   
       border: 2px solid black;
     }
 
-
-
+    
     .efeito-galeria {
       overflow: hidden; 
       position: relative;
-      border-radius: 4px; 
+      border-radius: 4px;
+      height: 100%;
     }
 
-    
     .efeito-galeria img {
-      transition: transform 0.4s ease, box-shadow 0.4s ease; /
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; 
     }
 
     
     .efeito-galeria:hover img {
-      transform: scale(1.1); 
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
-      z-index: 10;
+      transform: scale(1.08);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
     }
   </style>
 </head>
@@ -47,61 +48,59 @@
 
   
   <div class="container conteudo my-4 p-3">
-    <h2 class="text-center mb-3">Galeria de Gatos com Zoom e Sombra</h2>
+    <h2 class="text-center mb-4 text-dark font-monospace">Galeria de Gatos - Atividade 17</h2>
     
     
     <div class="row linha g-2 p-2"> 
       
       
       <div class="col-md-6 coluna p-2">
-        <div class="efeito-galeria h-100">
-          <img src="gato_grande.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Gato grande">
+        <div class="efeito-galeria" style="min-height: 400px;">
+          <img src="https://unsplash.com" alt="Gato Principal Grande">
         </div>
       </div>
 
       
       <div class="col-md-6 coluna p-2">
-        
-        
         <div class="row linha g-2 p-1">
           
           
           <div class="col-12 coluna p-1">
-            <div class="efeito-galeria">
-              <img src="gato_horizontal.jpg" class="img-fluid w-100 object-fit-cover" style="max-height: 150px;" alt="Gato horizontal">
+            <div class="efeito-galeria" style="height: 140px;">
+              <img src="https://unsplash.com" alt="Gato com óculos">
             </div>
           </div>
 
           
           <div class="col-6 coluna p-1">
-            <div class="efeito-galeria">
-              <img src="gato_medio1.jpg" class="img-fluid w-100 object-fit-cover" style="max-height: 120px;" alt="Gato médio 1">
+            <div class="efeito-galeria" style="height: 120px;">
+              <img src="https://unsplash.com" alt="Gato olhando">
             </div>
           </div>
           <div class="col-6 coluna p-1">
-            <div class="efeito-galeria">
-              <img src="gato_medio2.jpg" class="img-fluid w-100 object-fit-cover" style="max-height: 120px;" alt="Gato médio 2">
+            <div class="efeito-galeria" style="height: 120px;">
+              <img src="https://unsplash.com" alt="Gato deitado">
             </div>
           </div>
 
           
           <div class="col-4 coluna p-1">
-            <div class="efeito-galeria">
-              <img src="gato_pqp1.jpg" class="img-fluid w-100 object-fit-cover" style="max-height: 100px;" alt="Gato pequeno 1">
+            <div class="efeito-galeria" style="height: 100px;">
+              <img src="https://unsplash.com" alt="Gato fofo">
             </div>
           </div>
           <div class="col-4 coluna p-1">
-            <div class="efeito-galeria">
-              <img src="gato_pqp2.jpg" class="img-fluid w-100 object-fit-cover" style="max-height: 100px;" alt="Gato pequeno 2">
+            <div class="efeito-galeria" style="height: 100px;">
+              <img src="https://unsplash.com" alt="Gato olhando fixo">
             </div>
           </div>
           <div class="col-4 coluna p-1">
-            <div class="efeito-galeria">
-              <img src="gato_pqp3.jpg" class="img-fluid w-100 object-fit-cover" style="max-height: 100px;" alt="Gato pequeno 3">
+            <div class="efeito-galeria" style="height: 100px;">
+              <img src="https://unsplash.com" alt="Gato brincalhão">
             </div>
           </div>
 
-        </div> 
+        </div>
       </div> 
 
     </div>
