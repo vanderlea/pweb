@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 18 - Formulários e Tabelas</title>
+  
+  <link rel="stylesheet" href="https://bootstrapcdn.com">
+</head>
+<body>
+
+  <div class="container" style="margin-top: 30px;">
+    
+    
+    <div class="row">
+      
+    
+      <div class="col-sm-8">
+        <h1>Cadastre-se</h1>
+        <form>
+          
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+          </div>
+
+          
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+          </div>
+
+          
+          <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+          </div>
+
+          
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> Aceito os termos do serviço.
+            </label>
+          </div>
+
+        
+          <div class="radio">
+            <label>
+              <input type="radio" name="opcoes" id="php" value="PHP"> PHP
+            </label>
+            <label>
+              <input type="radio" name="opcoes" id="java" value="Java"> Java
+            </label>
+          </div>
+
+          
+          <button type="submit" class="btn btn-default">Cadastrar</button>
+        </form>
+      </div>
+
+      
+      <div class="col-sm-4">
+        <h3>Logar</h3>
+        <form>
+          
+          <div class="form-group">
+            <input type="email" class="form-control" id="login-email" placeholder="Digite seu e-mail">
+          </div>
+
+          
+          <div class="form-group">
+            <input type="password" class="form-control" id="login-senha" placeholder="Digite sua senha">
+          </div>
+
+          
+          <button type="submit" class="btn btn-primary">Logar</button>
+        </form>
+      </div>
+
+    </div> 
+
+    <hr> 
+
+    
+    <div class="row" style="margin-top: 30px; margin-bottom: 50px;">
+      <div class="col-xs-12">
+        <h2 class="sub-header">Produtos Cadastrados</h2>
+        
+        
+        <table class="table table-striped table-hover table-condensed">
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Fabricante</th>
+              <th>Preço</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Notebook 980</td>
+              <td>HP</td>
+              <td>R$ 1.800,00</td>
+            </tr>
+            <tr>
+              <td>MacBook Air</td>
+              <td>Apple</td>
+              <td>R$ 4.800,00</td>
+            </tr>
+            <tr>
+              <td>HP Pavillon</td>
+              <td>HP</td>
+              <td>R$ 2.800,00</td>
+            </tr>
+          </tbody>
+        </table>
+
+      </div>
+    </div> 
+
+  </div> 
+
+  
+  <script src="https://googleapis.com"></script>
+  <script src="https://bootstrapcdn.com"></script>
+</body>
+</html>
